@@ -1,0 +1,18 @@
+GET http://localhost:3000/api/books
+
+###
+
+POST http://localhost:3000/api/books
+Content-Type: application/json
+
+# {
+# 	"title": "I Robot",
+# 	"author": "Isaac Asimov",
+# 	"isbn": "4819489398538"
+# }
+
+{
+	"title": "Digital Fortress",
+	"author": "Dan Brown",
+	"isbn": "7458727852"
+}
